@@ -2,9 +2,15 @@
 
 This is the [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) configuration file for Laravel applications. The rules used in this configuration are analogues of the [Laravel Preset](https://docs.styleci.io/presets#laravel) rules of StyleCI, extended with a few additional rules of PSR2.
 
-Below are snippets of code for each item, illustrating the appropriate formatting.
+## How to use
+
+> This repo contains configuration file only, and you should have [FriendsOfPHP/PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) installed.
+
+Copy `.php_cs.dist` file of this repo into the root directory of your project. then use the commands as described in the php-cs-fixer documentation.
 
 ## Rules Description
+
+Below you can find snippets of code for each item, illustrating the appropriate formatting.
 
 ### array_syntax
 PHP arrays should be declared using the configured syntax.
